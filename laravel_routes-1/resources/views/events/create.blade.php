@@ -4,7 +4,7 @@
 
 @section('content')
 
-<p>Criar evento</p>
+<p>Aqui será rendezidado a página de eventos</p>
 
 @endsection
 

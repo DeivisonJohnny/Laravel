@@ -32,20 +32,20 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbar">
             <a href="/" class="navbar-brand">
-                <img src="/img/quadrinho.png" alt="quadrinho" id="quadrinho">
+                <!-- <img src="/img/quadrinho.png" alt="quadrinho" id="quadrinho"> -->
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="/events/create" class="nav-link">Eventos</a>
+                    <a href="/events/" class="nav-link">Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/" class="nav-link">Criar Eventos</a>
+                    <a href="/events/create" class="nav-link">Criar Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/" class="nav-link">Entrar</a>
+                    <a href="/events/login" class="nav-link">Entrar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/" class="nav-link">Cadatrar</a>
+                    <a href="/events/register" class="nav-link">Cadatrar</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,8 @@
     @yield('content')
 
     <footer>
-        <p>HDC Events $copy; 2020</p>
+        <p>By Developer Deivison Johnny</p>
+        <p>Aprendendo Laravel</p>
     </footer>
 
 </body>
