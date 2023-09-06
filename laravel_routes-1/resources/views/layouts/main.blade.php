@@ -14,6 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 
+
+
+
     <!-- CSS da aplicação -->
     <link rel="stylesheet" href="/css/style.css">
 
@@ -28,12 +31,12 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbar">
-            <a href="/" class="nabar-brand">
-                <img src="img/quadrinho.png" alt="quadrinho" id="quadrinho">
+            <a href="/" class="navbar-brand">
+                <img src="/img/quadrinho.png" alt="quadrinho" id="quadrinho">
             </a>
-            <ul>
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="/" class="nav-link">Eventos</a>
+                    <a href="/events/create" class="nav-link">Eventos</a>
                 </li>
                 <li class="nav-item">
                     <a href="/" class="nav-link">Criar Eventos</a>
@@ -57,4 +60,6 @@
 
 </body>
 
+    <!-- icon ionicons  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </html>
